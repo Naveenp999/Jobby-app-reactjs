@@ -1,0 +1,83 @@
+.loginform-container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.website-logo {
+  width: 30px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 100px;
+    margin-bottom: 40px;
+    margin: auto;
+  }
+}
+.login-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  width: 80%;
+  max-width: 300px;
+}
+.label {
+  color: white;
+  font-size: 10px;
+  margin-top: 8px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.input {
+  border: 1px solid white;
+  width: 100%;
+  padding: 5px;
+  font-size: 12px;
+  color: white;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 12px;
+    padding: 7px;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .login-content {
+    padding: 25px;
+  }
+}
+.button {
+  background-color: #6366f1;
+  width: 100%;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 7px;
+}
+@media screen and (min-width: 768px) {
+  .error-msg {
+    font-size: 15px;
+  }
+}
+.first {
+  margin-top: 40px;
+}

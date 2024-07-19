@@ -1,0 +1,138 @@
+.company-job-banner {
+  background-color: #272727;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .company-job-banner {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+  }
+}
+.company-details {
+  display: flex;
+}
+.company-logo {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (min-width: 768px) {
+  .company-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+.role-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  height: 25px;
+}
+@media screen and (min-width: 768px) {
+  .role-container {
+    height: 60px;
+  }
+}
+.role {
+  font-size: 15px;
+  color: #f1f5f9;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .role {
+    font-size: 20px;
+  }
+}
+.job-item-horizantal {
+  display: flex;
+  align-items: center;
+}
+.react-icon {
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .react-icon {
+    font-size: 20px;
+  }
+}
+.rating {
+  font-size: 10px;
+  color: #f1f5f9;
+  margin: 0px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .rating {
+    font-size: 15px;
+  }
+}
+.package-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.item-description {
+  font-size: 8px;
+  color: #f1f5f9;
+  margin-left: 5px;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .item-description {
+    font-size: 15px;
+  }
+}
+.package-text {
+  font-size: 15px;
+  color: #f1f5f9;
+}
+@media screen and (min-width: 768px) {
+  .package-text {
+    font-size: 22px;
+  }
+}
+.side-text {
+  font-size: 15px;
+  color: #f1f5f9;
+  margin: 0px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .side-text {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+}
+.job-description {
+  font-size: 8px;
+  color: #f1f5f9;
+}
+@media screen and (min-width: 768px) {
+  .job-description {
+    font-size: 15px;
+  }
+}
+.space {
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .space {
+    margin-left: 15px;
+  }
+}
+.job-line {
+  height: 1px;
+  color: #ffffff;
+}
+.rating-icon {
+  color: #fbbf24;
+}

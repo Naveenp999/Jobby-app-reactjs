@@ -1,0 +1,84 @@
+.filter-container {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 400px;
+}
+.filters-con {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.filter-item {
+  font-size: 10px;
+  color: #f1f5f9;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .filter-item {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+}
+.active {
+  color: #6366f1;
+}
+.profile-main-banner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .profile-main-banner {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+.name {
+  font-size: 15px;
+  color: #6366f1;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 30px;
+  }
+}
+.bio-description {
+  font-size: 15px;
+  color: #2c364c;
+}
+@media screen and (min-width: 768px) {
+  .bio-description {
+    font-size: 25px;
+  }
+}
+.item-btn {
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.tick {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .tick {
+    width: 25px;
+    height: 25px;
+  }
+}
+.side-heading {
+  color: #f1f5f9;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .side-heading {
+    font-size: 30px;
+  }
+}

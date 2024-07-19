@@ -1,0 +1,135 @@
+.jobs-container {
+  background-color: black;
+  min-height: 100vh;
+}
+.jobs-filters-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jobs-filters-sub {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .jobs-filters-sub {
+    flex-direction: row;
+  }
+}
+.jobs-list {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .jobs-list {
+    width: 60%;
+  }
+}
+.filter-con {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .filter-con {
+    width: 37%;
+  }
+}
+.search-container-small {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #f1f5f9;
+}
+.search-container-large {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .search-container-large {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #f1f5f9;
+  }
+  .search-container-small {
+    display: none;
+  }
+}
+.search-button {
+  background-color: #272727;
+  width: 20%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .search-button {
+    font-size: 30px;
+  }
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  font-size: 10px;
+  color: #f1f5f9;
+  width: 80%;
+  padding-left: 10px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 20px;
+  }
+}
+.jobs-list-con {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.no-products {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.failure-banner {
+  width: 100%;
+  max-width: 300px;
+}
+.head {
+  color: #ffffff;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 40px;
+  }
+}
+.desc {
+  font-size: 15px;
+  color: #f1f5f9;
+}
+@media screen and (min-width: 768px) {
+  .desc {
+    font: 30px;
+  }
+}
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,95 @@
+.skills-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .skill-item {
+    width: 25%;
+    margin-bottom: 50px;
+  }
+}
+.skill-icon {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (min-width: 768px) {
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+.company-experience {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.company-text {
+  width: 65%;
+}
+.company-picture {
+  width: 30%;
+}
+.similar-description {
+  font-size: 8px;
+}
+@media screen and (min-width: 768px) {
+  .similar-description {
+    font-size: 10px;
+  }
+}
+.similar-item-con {
+  width: 170px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .similar-item-con {
+    width: 300px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+}
+.application-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sub-application-container {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .sub-application-container {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+.similar-jobs-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+}
+.application-content {
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .application-content {
+    padding: 45px;
+  }
+}
